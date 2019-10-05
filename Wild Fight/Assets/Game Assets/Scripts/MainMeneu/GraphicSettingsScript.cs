@@ -6,7 +6,7 @@ public class GraphicSettingsScript : MonoBehaviour
 {
     public void SetQuality(int qualityIndex)
     {
-        print(qualityIndex);
+        print("Quality Level: " + qualityIndex);
         QualitySettings.SetQualityLevel(qualityIndex);
     }
 }
